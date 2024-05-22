@@ -28,25 +28,18 @@
 ;; token definitions
 ;;
 
-(define-non-fungible-token another-ape uint)
+
 
 ;; constants
 ;;
 
-(define-constant MINT_PRICE u5000000)
-
-(define-constant CONTRACT_OWNER tx-sender)
-
-(define-constant ERR_NOT_TOKEN_OWNER (err u101))
 
 
 
 ;; data vars
 ;;
 
-(define-data-var last-token-id uint u0)
 
-(define-data-var base-uri (string-ascii 100) "bafybeigi4zxlzz6wmqrgazeccbenctvhdn5bw7o7qlwfvqo7g5alij4bda") ;; see 33:21 in video if this is incorrect
 
 
 ;; data maps

@@ -31,7 +31,7 @@
 
 (define-data-var last-token-id uint u0)
 
-(define-data-var base-uri (string-ascii 100) "bafybeigi4zxlzz6wmqrgazeccbenctvhdn5bw7o7qlwfvqo7g5alij4bda") ;; see 33:21 in video if this is incorrect
+(define-data-var base-uri (string-ascii 100) "bafybeigi4zxlzz6wmqrgazeccbenctvhdn5bw7o7qlwfvqo7g5alij4bda") ;; see 33:21 in video if this is incorrect --- IT WORKS!
 
 
 ;; data maps
@@ -72,7 +72,7 @@
 
 
 (define-read-only (get-token-uri (id uint))
-    (ok (some (var-get base-uri))) ;; see data var if this is not working / 33:21 in video
+    (ok (some (var-get base-uri))) ;; see data var if this is not working / 33:21 in video --- IT WORKS!
 )
 
 
